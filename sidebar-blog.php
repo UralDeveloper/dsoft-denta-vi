@@ -6,6 +6,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package DSoft_-_Denta
+ * Functions are in the file inc/custom/functions.php
  */
 
 if (! is_active_sidebar('sidebar-1')) {

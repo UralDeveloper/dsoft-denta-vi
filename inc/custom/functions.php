@@ -4,6 +4,8 @@
  * @function custom_breadcrumbs()
  */
 function custom_breadcrumbs() {
+    global $post;
+
     // Не выводим хлебные крошки на главной странице
     if (is_front_page()) {
         return;
@@ -15,27 +17,56 @@ function custom_breadcrumbs() {
     // Ссылка на главную страницу
     echo '<li><a href="' . home_url() . '">Главная</a></li>';
 
-    // Если это категория или пост в категории
-    if (is_category() || is_single()) {
-        $category = get_the_category();
-        if (!empty($category)) {
-            // Получаем ссылку на категорию
-            if (is_single()) {
-                echo '<li>';
-                echo '<a href="' . get_category_link($category[0]->cat_ID) . '">' . $category[0]->cat_name . '</a>';
-                echo '</li>';
-            } else {
-                echo '<li>' . $category[0]->cat_name . '</li>';
+    // Если это кастомный тип записи "services"
+    if (is_singular('services')) {
+        // Ссылка на архив услуг
+        echo '<li><a href="' . get_post_type_archive_link('services') . '">Услуги</a></li>';
+
+        // Если есть родительская страница
+        if ($post->post_parent) {
+            $parent_id  = $post->post_parent;
+            $breadcrumbs = array();
+            while ($parent_id) {
+                $page = get_page($parent_id);
+                $breadcrumbs[] = '<li><a href="' . get_permalink($page->ID) . '">' . get_the_title($page->ID) . '</a></li>';
+                $parent_id  = $page->post_parent;
+            }
+            $breadcrumbs = array_reverse($breadcrumbs);
+            foreach ($breadcrumbs as $crumb) {
+                echo $crumb;
             }
         }
-        if (is_single()) {
-            // Название поста
-            echo '<li>' . get_the_title() . '</li>';
+
+        // Выводим название текущей услуги
+        echo '<li>' . get_the_title() . '</li>';
+    }
+
+    // Если это стандартный тип записи "post"
+    elseif (is_singular('post')) {
+        // Ссылка на архив статей
+        echo '<li><a href="' . get_permalink(get_option('page_for_posts')) . '">Статьи</a></li>';
+
+        // Получаем категории текущего поста
+        $categories = get_the_category();
+        if (!empty($categories)) {
+            // Берём первую категорию для хлебных крошек
+            $category = $categories[0];
+            echo '<li><a href="' . get_category_link($category->term_id) . '">' . esc_html($category->name) . '</a></li>';
         }
+
+        // Выводим название текущего поста
+        echo '<li>' . get_the_title() . '</li>';
+    }
+
+    // Если это категория или архив категории
+    elseif (is_category()) {
+        $category = get_category(get_query_var('cat'));
+        echo '<li>Статьи</li>'; // Переход на общий архив статей
+        echo '<li>' . esc_html($category->name) . '</li>';
     }
 
     // Если это страница
-    if (is_page() && !is_front_page()) {
+    elseif (is_page() && !is_front_page()) {
         // Если есть родительская страница
         if ($post->post_parent) {
             $parent_id  = $post->post_parent;
@@ -55,27 +86,27 @@ function custom_breadcrumbs() {
     }
 
     // Если это страница архивов
-    if (is_archive() && !is_category() && !is_tag() && !is_author()) {
+    elseif (is_archive() && !is_category() && !is_tag() && !is_author()) {
         echo '<li class="current_page_item">' . post_type_archive_title('', false) . '</li>';
     }
 
     // Если это страница с списком статей
-    if (is_home()) {
+    elseif (is_home()) {
         echo '<li>' . single_post_title('', false) . '</li>';
     }
 
     // Если это страница с списком статей
-    if (is_tag()) {
+    elseif (is_tag()) {
         echo '<li class="current_page_item">' . single_tag_title('', false) . '</li>';
     }
 
     // Если это страница поиска
-    if (is_search()) {
+    elseif (is_search()) {
         echo '<li>Результаты поиска: "' . get_search_query() . '"</li>';
     }
 
     // Если это 404 ошибка
-    if (is_404()) {
+    elseif (is_404()) {
         echo '<li>Страница не найдена</li>';
     }
 

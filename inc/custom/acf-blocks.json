@@ -6,8 +6,7 @@
         "category": "denta-vi",
         "icon": "editor-ul",
         "keywords": [
-            "list",
-            "items",
+            "Список",
             "denta-vi"
         ],
         "render_template": "list"
@@ -19,8 +18,7 @@
         "category": "denta-vi",
         "icon": "editor-ul",
         "keywords": [
-            "list",
-            "items",
+            "Сопутствующие услуги",
             "denta-vi"
         ],
         "render_template": "related-services"

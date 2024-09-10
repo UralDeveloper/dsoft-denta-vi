@@ -24,12 +24,12 @@ function create_services_post_type() {
         'show_in_menu'       => true,
         'query_var'          => true,
         'rewrite'            => array( 'slug' => 'services' ),
-        'capability_type'    => 'post',
+        'capability_type'    => 'page',
         'has_archive'        => true,
-        'hierarchical'       => false,
+        'hierarchical'       => true,
         'show_in_rest'       => true,
         'menu_position'      => null,
-        'supports'           => array( 'title', 'editor', 'thumbnail' ),
+        'supports'           => array( 'title', 'editor', 'thumbnail', 'page-attributes' ),
         'menu_icon'          => get_template_directory_uri() . '/assets/images/icons/service_icon.png', // Иконка в меню админки
     );
 
