@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Список",
+        "slug": "denta-vi-list",
+        "description": "Блок для отображения списка элементов.",
+        "category": "denta-vi",
+        "icon": "editor-ul",
+        "keywords": [
+            "list",
+            "items",
+            "denta-vi"
+        ],
+        "render_template": "list"
+    },
+    {
+        "name": "Сопутствующие услуги",
+        "slug": "denta-vi-related-services",
+        "description": "Блок для отображения сопутствующих услуг.",
+        "category": "denta-vi",
+        "icon": "editor-ul",
+        "keywords": [
+            "list",
+            "items",
+            "denta-vi"
+        ],
+        "render_template": "related-services"
+    }
+]

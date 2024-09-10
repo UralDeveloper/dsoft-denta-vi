@@ -1,0 +1,6614 @@
+@media only screen and (max-width: 767px) {
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .section-title-warp {
+        text-align: center;
+        margin-bottom: 35px;
+        
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .section-warp-btn {
+        display: none;
+    }
+    .top-header-area {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .top-header-information {
+        text-align: center;
+    }
+    .top-header-optional {
+        text-align: center;
+        margin-top: 15px;
+
+        .languages-list {
+            position: relative;
+            z-index: 9999;
+        }
+    }
+    .middle-header-area {
+        border-bottom: 1px solid #eeeeee;
+    }
+    .middle-header {
+        h1 {
+            display: none;
+        }
+    }
+    .middle-header-content {
+        text-align: center;
+
+        li {
+            padding-left: 0;
+            margin-right: 10px;
+            text-align: center;
+            font-size: 12px;
+
+            i {
+                position: relative;
+                top: unset;
+                transform: unset;
+                display: block;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+    .mean-container {
+        a {
+            &.meanmenu-reveal {
+                padding: 6px 0 0 0;
+
+                span {
+                    display: block;
+                    background: #000;
+                    height: 4px;
+                    margin-top: -5px;
+                    border-radius: 3px;
+                    position: relative;
+                    top: 8px;
+                }
+            }
+        }
+        .mean-bar {
+            background-color: unset;
+            border-bottom: none;
+        }
+        .mean-nav {
+            margin-top: 55px;
+        }
+    }
+    .others-option-for-responsive {
+        .dot-menu {
+            top: -35px;
+        }
+        .container {
+            .container {
+                right: 20px;
+                max-width: 280px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 5px;
+                text-align: center;
+            }  
+        }   
+        .option-inner {
+            .others-options {
+                margin-left: 0;
+
+                .option-item {
+                    margin-bottom: 10px;
+                    margin-right: 0;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    .language-switcher {
+                        .dropdown-menu {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                &.d-flex {
+                    display: block !important;
+                }
+            }
+        }
+    } 
+    .main-slides-item {
+        padding-top: 95px;
+        padding-bottom: 170px;
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            z-index: -1;
+            opacity: .70;
+        }
+    }
+    .main-slides-content {
+        text-align: center;
+
+        h1 {
+            font-size: 35px;
+        }
+        .slides-btn {
+            margin-top: 20px;
+
+            .checkup-content {
+                margin-left: 0;
+                margin-top: 40px;
+            }
+        }
+    }
+    .home-slides {
+        &.owl-theme {
+            .owl-nav {
+                opacity: 1;
+                visibility: visible;
+    
+                [class*=owl-] {
+                    top: unset;
+                    transform: unset;
+                    bottom: 30px;
+                }
+            }
+        }
+    }
+    // New
+    .eye-care-slider {
+        &.owl-theme {
+            .owl-nav {
+                position: relative;
+                left: auto;
+                right: auto;
+                [class*=owl-] {
+                    width: 50px;
+                    height: 50px;
+                    i {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .features-area {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    .single-features {
+        text-align: center;
+        padding: 35px 25px;
+
+        .content {
+            padding-left: 0;
+
+            .icon {
+                position: relative;
+                top: 0;
+                margin-bottom: 20px;
+
+                i {
+                    line-height: 1;
+                }
+            }
+            h3 {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+    .single-services {
+        .services-content {
+            padding: 30px 25px;
+
+            h3 {
+                font-size: 22px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .overview-area {
+        padding-top: 50px;
+    }
+    .overview-content {
+        margin-top: 0;
+
+        h3 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .overview-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .appointment-overview-area {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    .appointment-overview-contact {
+        margin-bottom: 30px;
+
+        .appointment-info {
+            position: relative;
+            padding: 35px 20px;
+
+            li {
+                font-size: 15px;
+
+                span {
+                    font-size: 20px;
+                }
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .appointment-overview-box {
+        border-top: 1px solid #06a3da;
+
+        .content {
+            h4 {
+                font-size: 22px;
+            }
+            .box-image {
+                margin-bottom: 30px;
+            }
+        }
+        .make-appointment-content {
+            h4 {
+                font-size: 20px;
+            }
+        }
+    }
+    .about-content {
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .about-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .single-core-features {
+        text-align: center;
+
+        h3 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .single-doctor {
+        .doctor-content {
+            padding: 25px 20px;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .single-review-item {
+        padding: 55px 20px 55px;
+
+        p {
+            font-size: 15px;
+        }
+        .review-info {
+            margin-top: 30px;
+
+            h3 {
+                font-size: 18px;
+            }
+            img {
+                top: -10px;
+            }
+        }
+    }
+    .review-slides {
+        &.owl-theme {
+            .owl-nav.disabled+.owl-dots {
+                margin-top: 10px;
+            }
+        }
+    }
+    .single-blog {
+        .blog-content {
+            padding: 20px;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .main-slides-content {
+        .slides-btn {
+            .optional-btn {
+                margin-left: 0;
+                margin-top: 30px;
+            }
+        }
+    }
+    .section-title {
+        h2 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .single-services-box {
+        padding: 20px;
+
+        h3 {
+            font-size: 22px;
+        }
+    }
+    .about-image {
+        .about-inner-box {
+            display: none;
+        }
+    }
+    .single-gallery {
+        .content {
+            padding: 25px;
+        }
+    }
+    .gallery-area {
+        &.bg-091e3e {
+            padding-bottom: 115px;
+        }
+    }
+    .appointment-inner-box {
+        padding: 50px 10px;
+
+        .appointment-form {
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+    .main-banner-item {
+        padding-top: 50px;
+
+        .container-fluid {
+            padding-right: 15px;
+        }
+    }
+    .main-banner-content {
+        text-align: center;
+        margin: auto;
+
+        h1 {
+            font-size: 30px;
+        }
+        .banner-btn {
+            margin-top: 20px;
+
+            .optional-btn {
+                margin-left: 0;
+                margin-top: 25px;
+            }
+        }
+    }
+    .main-banner-image {
+        margin-top: 30px;
+
+        img {
+            border-radius: 0;
+        }
+    }
+    .single-services-item {
+        .services-content {
+            padding: 35px 15px;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .appointment-form {
+        h4 {
+            font-size: 20px;
+        }
+    }
+    .page-banner-area {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+    .page-banner-content {
+        h2 {
+            font-size: 35px;
+        }
+        .pages-list {
+            li {
+                font-size: 15px;
+            }
+        }
+    }
+    .single-fun-fact {
+        h3 {
+            font-size: 35px;
+        }
+    }
+    .dentist-details-content {
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .widget-area {
+        margin-top: 30px;
+    }
+    .services-details-list {
+        li {
+            i {
+                top: 0;
+            }
+        }
+    }
+    .pagination-area {
+        .page-numbers {
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            margin: 0 2px;
+            font-size: 15px;
+        }
+    }
+    .login-form {
+        padding: 25px;
+
+        form {
+            .lost-your-password {
+                text-align: left;
+                margin-top: 5px;
+            }
+        }
+    }
+    .register-form {
+        padding: 25px;
+    }
+    .error-content {
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .coming-soon-content {
+        padding: 30px 25px;
+
+        #timer {
+            margin-top: 20px;
+
+            div {
+                width: 100px;
+                height: 105px;
+                margin-left: 5px;
+                margin-right: 5px;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        }
+        h2 {
+            font-size: 22px;
+        }
+    }
+    .searchmodal {
+        .modal-content {
+            padding: 30px;
+        }
+    }
+
+    // New Three Demo Responsive
+
+    // Dental Tourism Responsive CSS
+    .dental-tourism-top-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .top-dental-tourism-information {
+        li {
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &.with-left {
+            margin-left: 0;
+        }
+    }
+    .top-dental-tourism-optional {
+        text-align: start;
+        margin-top: 10px;
+
+        li {
+            a {
+                i {
+                    top: 0;
+                }
+            }
+        }
+    }
+    .dental-tourism-banner-area {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            opacity: .77;
+        }
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .dental-tourism-banner-content {
+        h1 {
+            font-size: 25px;
+        }
+    }
+    .single-dental-tourism-features {
+        .content {
+            padding-left: 0;
+
+            .icon-image {
+                position: relative;
+                margin-bottom: 20px;
+                height: 70px;
+                width: 70px;
+                line-height: 70px;
+
+                img {
+                    max-width: 30px;
+                }
+                .number {
+                    display: none;
+                }
+            }
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .pb-75 {
+        padding-bottom: 25px;
+    }
+    .dental-tourism-about-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 24px;
+        }
+    }
+    .dental-tourism-services-area {
+        .container-fluid {
+            left: 0;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .dental-tourism-choose-content {
+        h3 {
+            font-size: 24px;
+        }
+        .choose-inner-content {
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+    .dental-tourism-choose-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .dental-tourism-appointment-form {
+        h4 {
+            font-size: 22px;
+        }
+    }
+    .dental-tourism-dentist-card {
+        .dentist-content {
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .dental-tourism-tourists-content {
+        h3 {
+            font-size: 24px;
+        }
+    }
+    .dental-tourism-tourists-image {
+        margin-top: 30px;
+
+        .tourists-image {
+            .content {
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: "Heebo", sans-serif;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .dental-tourism-review-card {
+        padding: 20px;
+
+        .review-info {
+            padding-left: 65px;
+
+            img {
+                max-width: 50px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .icon-quote {
+            right: 25px;
+            bottom: 15px;
+        }
+    }
+    .dental-tourism-blog-card {
+        .blog-content {
+            padding-left: 0;
+
+            .entry-meta {
+                li {
+                    font-size: 12px;
+                    margin-right: 5px;
+                }
+            }
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .dental-tourism-footer-widget {
+        h3 {
+            font-size: 22px;;
+        }
+    }
+    .dental-tourism-copyright-area {
+        margin-top: 25px;
+    }
+
+    // Skin Care Responsive CSS
+    .top-area {
+        .container-fluid {
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+            max-width: 540px;
+        }
+    }
+    .top-information-wrap {
+        li {
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &.with-left {
+            margin-left: 0;
+        }
+    }
+    .top-optional-wrap {
+        text-align: start;
+        margin-top: 10px;
+
+        li {
+            a {
+                i {
+                    top: 0;
+                }
+            }
+        }
+    }
+    .skin-care-banner-area {
+        padding-top: 310px;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .skin-care-banner-content {
+        h1 {
+            font-size: 25px;
+        }
+    }
+    .skin-care-banner-shape {
+        display: none;
+    }
+    .skin-care-banner-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .skin-care-features-card {
+        padding: 20px;
+
+        .features-title {
+            padding-left: 0;
+            padding-top: 0;
+            margin-bottom: 15px;
+
+            .icon-image {
+                position: relative;
+                margin-bottom: 25px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .skin-care-about-image {
+        .skin-care-fun-fact {
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            padding: 20px;
+
+            .fun-fact {
+                h3 {
+                    font-size: 35px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .skin-care-about-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 24px;
+        }
+        .about-btn-with-info {
+            li {
+                margin-bottom: 25px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .skin-care-services-card {
+        .services-image {
+            .icon {
+                i {
+                    height: 80px;
+                    width: 80px;
+                    line-height: 80px;
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    .skin-care-dry-content {
+        h3 {
+            font-size: 25px;
+        }
+        .dry-list {
+            li {
+                img {
+                    max-width: 40px;
+                }
+            }  
+        }      
+    }
+    .skin-care-dry-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .skin-care-appointment-image {
+        height: 450px;
+    }
+    .skin-care-appointment-form {
+        padding: 50px 20px;
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+    .skin-care-review-card {
+        padding: 20px;
+
+        .review-info {
+            padding-left: 65px;
+
+            img {
+                max-width: 50px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .icon-quote {
+            right: 25px;
+            bottom: 15px;
+        }
+    }
+    .skin-care-blog-card {
+        .blog-content {
+            padding-left: 0;
+
+            .entry-meta {
+                li {
+                    font-size: 12px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .skin-care-partner-inner-box {
+        padding: 50px 10px;
+    }
+    .skin-care-footer-area {
+        padding-top: 170px;
+    }
+    .skin-care-copyright-area {
+        margin-top: 25px;
+    }
+
+    // Skin Care Responsive CSS
+    .eye-care-banner-area {
+        padding-top: 310px;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .eye-care-banner-content {
+        padding: 20px;
+        margin-right: 0;
+
+        h1 {
+            font-size: 25px;
+            font-family: "Heebo", sans-serif;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        .banner-btn-with-info {
+            li {
+                &.banner-btn {
+                    .default-btn {
+                        padding: 15px;
+                    }
+                }
+                img {
+                    max-width: 35px;
+                }
+                &.title {
+                    display: none;
+                }
+            }
+        }
+    }
+    .eye-care-features-card {
+        &::before {
+            display: none;
+        }
+    }
+    .eye-care-about-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .eye-care-services-card {
+        padding: 20px;
+
+        .icon {
+            i {
+                height: 70px;
+                width: 70px;
+                line-height: 70px;
+                font-size: 38px;
+            }
+        }
+    }
+    .eye-care-services-slides {
+        &.owl-theme {
+            .owl-nav {
+                display: none;
+            }
+        }
+    }
+    .eye-care-solutions-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .eye-care-review-slides {
+        margin-left: 0;
+    }
+    .eye-care-testimonials-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .eye-care-testimonials-image {
+        height: 450px;
+        margin-top: 50px;
+    }
+    .eye-care-testimonials-content-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .content {
+            margin-left: 0;
+
+            h3 {
+                font-size: 24px;
+            }
+        }
+    }
+    .eye-care-review-card {
+        padding: 30px 20px;
+
+        .review-info {
+            padding-left: 65px;
+
+            img {
+                max-width: 50px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .icon-quote {
+            display: none;
+        }
+    }
+    .eye-care-review-slides {
+        &.owl-theme {
+            .owl-nav.disabled + .owl-dots {
+                right: 20px;
+                bottom: 20px;
+            }
+        }
+    }
+    .eye-care-treatment-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .eye-care-blog-card {
+        padding: 20px;
+    }
+    .newsletter-inner-box {
+        padding: 50px 20px;
+
+        .newsletter-content {
+            margin-bottom: 30px;
+        }
+    }
+    .eye-care-copyright-area {
+        margin-top: 25px;
+    }
+    .eye-care-footer-area {
+        padding-top: 145px;
+    }
+
+    /* Start "Covid 19 Vaccination Center Demo Responsive" */
+
+    .covid-top-area {
+        .top-optional-wrap {
+            text-align: start;
+            margin: {
+                top: 0;
+                bottom: 10px;
+            };
+        }
+        .top-information-wrap {
+            text-align: start;
+        }
+    }
+
+    .covid-banner-area {
+        padding: {
+            top: 280px;
+            bottom: 65px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .covid-banner-content {
+        top: 0;
+
+        h1 {
+            font-size: 35px;
+        }
+        .banner-btn {
+            li {
+                margin-right: 0;
+                margin-bottom: 20px;
+                display: block;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .banner-btn-with-info {
+            display: block !important;
+
+            li {
+                &.title {
+                    margin-left: 0;
+                    margin-top: 10px;
+                }
+                i {
+                    position: relative;
+                    top: 5px;
+                }
+            }
+        }
+    }
+    .covid-banner-image {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .covid-check-title {
+        &.d-flex {
+            display: block !important; 
+        }
+        h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+    }
+    .covid-check-form-inner {
+        padding: {
+            left: 20px;
+            right: 20px;
+        };
+    }
+
+    .covid-vaccine-card {
+        .vaccine-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .covid-about-content {
+        padding-left: 0;
+        margin-top: 35px;
+
+        h3 {
+            font-size: 25px;
+        }
+        .list {
+            li {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .covid-registration-image {
+        padding-left: 0;
+        margin-top: 35px;
+
+        .content {
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .covid-process-card {
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .covid-tracker-card {
+        padding: 20px;
+
+        .tracker-content {
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .covid-protection-content {
+        .content {
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+    .covid-protection-fun-fact {
+        margin-top: 35px;
+        margin-right: 0;
+        padding: {
+            left: 25px;
+            right: 25px;
+        };
+        .fun-fact {
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .covid-testimonials-inner {
+        padding: 25px;
+    }
+    .covid-testimonials-small-image1, .covid-testimonials-small-image2, .covid-testimonials-small-image3, .covid-testimonials-small-image4, .covid-testimonials-small-image5, .covid-testimonials-small-image6 {
+        display: none;
+    }
+    .covid-testimonials-card {
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .covid-blog-card {
+        .blog-content {
+            padding: 20px;
+
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .covid-footer-widget {
+        &.ps-5 {
+            padding-left: 0 !important;
+        }
+    }
+    .covid-copyright-area {
+        margin-top: 25px;
+    }
+
+    .covid-page-banner-area {
+        padding-top: 275px;
+    }
+    .covid-page-banner-content {
+        top: 0;
+
+        h3 {
+            font-size: 30px;
+        }
+    }
+    .covid-page-banner-image {
+        margin-top: 35px;
+    }
+
+    .covid-information-card {
+        .title {
+            padding: 0;
+
+            img {
+                position: relative;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .covid-doctors-card {
+        .doctors-content {
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .covid-testimonials-wrap-card {
+        .info {
+            .title {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .how-vaccines-work-desc {
+        .content {
+            h3 {
+                font-size: 25px;
+            }
+            h4 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .how-vaccines-work-sidebar {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .covid-faq-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .covid-info-card {
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .covid-blog-details-desc {
+        padding-right: 0;
+
+        .content {
+            h3 {
+                font-size: 25px;
+            }
+        }
+        h4 {
+            font-size: 22px;
+        }
+        .comments-area {
+            padding: 20px;
+
+            .comment-body {
+                padding-left: 0;
+
+                .comment-author {
+                    .avatar {
+                        left: 0;
+                        position: relative;
+                        display: block;
+                        margin-bottom: 15px;
+                    } 
+                }
+            }
+        }
+    }
+
+    .covid-widget-area {
+        .widget_grin_posts_thumb {
+            padding: 20px;
+        }
+        .widget_categories {
+            padding: 20px;
+        }
+        .widget_tag_cloud {
+            padding: 20px;
+        }
+    }
+
+    .covid-tracker-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+    .covid-blog-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+    .covid-doctors-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /* End "Covid 19 Vaccination Center Demo Responsive" */
+
+
+    /* Start "Hospital Website Demo Responsive" */
+
+    .hospital-top-area {
+        .top-optional-wrap {
+            margin: {
+                top: 0;
+                bottom: 10px;
+            };
+        }
+        .top-information-wrap {
+            text-align: start;
+
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .hospital-banner-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 540px;
+        }
+    }
+    .hospital-banner-content {
+        top: 0;
+
+        span {
+            font-size: 14px;
+        }
+        h1 {
+            font-size: 35px;
+        }
+    }
+    .hospital-banner-image {
+        text-align: center;
+        margin-top: 30px;
+
+        .circle {
+            display: none;
+        }
+    }
+
+    .hospital-specialist-card {
+        .specialist-content {
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .hospital-about-content {
+        margin-top: 30px;
+
+        span {
+            font-size: 14px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .hospital-about-shape {
+        display: none;
+    }
+
+    .hospital-services-area {
+        .section-title {
+            &.with-hospital-color {
+                text-align: center !important;
+
+                &.d-flex {
+                    display: block !important;
+                }
+                .div {
+                    &.text-start {
+                        text-align: center !important;
+                    }
+                }
+                .default-btn {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-services-card {
+        .title {
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .services-btn {
+            font-size: 14px;
+        }
+    }
+    .hospital-services-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-skills-content {
+        span {
+            font-size: 14px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .hospital-skills-image {
+        padding-left: 0;
+        margin-top: 35px;
+    }
+
+    .hospital-fun-fact {
+        h3 {
+            font-size: 35px;
+
+            .plus {
+                font-size: 30px;
+                left: -5px;
+            }
+        }
+        p {
+            font-size: 15px;
+        }
+        .shape {
+            max-width: 75px;
+            margin: auto;
+        }
+    }
+
+    .hospital-team-card {
+        .team-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .hospital-team-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-app-area {
+        padding-bottom: 50px;
+    }
+    .hospital-app-image {
+        text-align: center;
+
+        .circle {
+            display: none;
+        }
+    }
+    .hospital-app-content {
+        padding-left: 0;
+        top: 0;
+        margin-top: 30px;
+
+        span {
+            font-size: 14px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        .app-btn-list {
+            li {
+                a {
+                    img {
+                        max-width: 125px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hospital-call-to-action-content {
+        span {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 14px;
+        }
+        .action-btn-list {
+            li {
+                margin-right: 5px;
+
+                .appointment-btn {
+                    padding: 12px 15px;
+                    font-size: 14px;
+                }
+                .see-btn {
+                    padding: 12px 15px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .hospital-testimonials-area {
+        .section-title {
+            &.with-hospital-color {
+                text-align: center !important;
+            }
+        }
+    }
+    .hospital-testimonials-card {
+        p {
+            font-size: 15px;
+            &::after {
+                display: none;
+            }
+        }
+        .info-content {
+            .info {
+                .title {
+                    h3 {
+                        font-size: 18px;
+                    }
+                    span {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .rating {
+                display: none;
+            }
+        }
+    }
+    .hospital-testimonials-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-blog-card {
+        .blog-image {
+            .date {
+                display: none;
+            }
+        }
+        .blog-content {
+            .meta {
+                li {
+                    font-size: 14px;
+                }
+            }
+            h3 {
+                font-size: 20px;
+            }
+            .blog-btn {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .hospital-information-card {
+        padding: 25px 20px;
+
+        .content {
+            padding-left: 80px;
+
+            .icon {
+                i {
+                    height: 65px;
+                    width: 65px;
+                    line-height: 65px;
+                    font-size: 35px;
+                }
+            }
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .hospital-footer-widget {
+        &.ps-5 {
+            padding-left: 0 !important;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        .quick-links {
+            li {
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+        .hours-list {
+            li {
+                font-size: 15px;
+            }
+        }
+    }
+    .hospital-copyright-area {
+        margin-top: 25px;
+    }
+
+    .hospital-page-banner-content {
+        h3 {
+            font-size: 30px;
+        }
+        .list {
+            li {
+                font-size: 15px;
+
+                &::before {
+                    height: 12px;
+                }
+            }
+        }
+    }
+
+    .hospital-choice-content {
+        margin-top: 35px;
+
+        span {
+            font-size: 14px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .hospital-widget-area {
+        margin: {
+            top: 0;
+            bottom: 30px;
+        };
+        .widget {
+            .widget-title {
+                font-size: 18px;
+            }
+        }
+        .widget_download_file {
+            padding: 20px;
+
+            .download-file-list {
+                li {
+                    .title {
+                        h4 {
+                            font-size: 16.5px;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_categories {
+            padding: 20px;
+        }
+        .widget_grin_posts_thumb {
+            padding: 20px;
+        }
+        .widget_tag_cloud {
+            padding: 20px;
+        }
+    }
+
+    .hospital-services-details-desc {
+        padding-left: 0;
+
+        .content {
+            h3 {
+                font-size: 25px;
+            }
+            h4 {
+                font-size: 22px;
+            }
+        }
+        .services-details-card {
+            h4 {
+                font-size: 18px;
+            }
+        }
+        .services-details-inner-content {
+            h4 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .hospital-testimonials-wrap-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-appointment-area-with-color {
+        padding: {
+            top: 50px;
+            bottom: 50px;
+        };
+        .hospital-appointment-form {
+            top: 0;
+            margin-top: 35px;
+
+            .content {
+                span {
+                    font-size: 14px;
+                }
+                h3 {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .hospital-portfolio-card {
+        .portfolio-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .hospital-portfolio-details-desc {
+        .content {
+            h3 {
+                font-size: 25px;
+            }
+            h4 {
+                font-size: 22px;
+            }
+        }
+    }
+    .hospital-portfolio-details-info {
+        padding: 22px;
+        margin-top: 30px;
+
+        .list {
+            li {
+                font-size: 15px;
+            }
+        }
+    }
+    .recent-project-title {
+        font-size: 20px;
+    }
+
+    .hospital-blog-details-desc {
+        padding-left: 0;
+
+        .article-content {
+            .meta {
+                li {
+                    font-size: 15px;
+                }
+            }
+            h3 {
+                font-size: 25px;
+            }
+        }
+        h4 {
+            font-size: 22px;
+        }
+        .article-tag {
+            &.d-flex {
+                display: block !important;
+            }
+            .tag-list {
+                margin-bottom: 20px;
+            }
+        }
+        .comments-area {
+            .comment-respond {
+                .comment-reply-title {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .hospital-contact-form {
+        padding: 30px;
+    }
+
+    .hospital-contact-information-area {
+        padding-top: 50px;
+    }
+    .hospital-contact-information-content {
+        top: 0;
+
+        .info {
+            padding-left: 0;
+
+            .icon {
+                position: relative;
+                margin-bottom: 20px;
+
+                i {
+                    height: 60px;
+                    width: 60px;
+                    line-height: 60px;
+                    font-size: 35px;
+                }
+            }
+            span {
+                font-size: 15px;
+            }
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+    .hospital-contact-information-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /* End "Hospital Website Demo Responsive" */
+
+
+
+    /* Start "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+
+    // Emergency & Trauma Care Demo Responsive
+    .section-title {
+        &.title-optional-wrap {
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .emergency-trauma-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 540px;
+        }
+    }
+    .emergency-trauma-care-banner-content {
+        padding: {
+            top: 35px;
+            right: 0;
+        };
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 15px;
+        }
+        .hotline {
+            margin-top: 20px;
+
+            .icon {
+                margin-right: 8px;
+
+                i {
+                    height: 30px;
+                    width: 30px;
+                    line-height: 30px;
+                    font-size: 18px;
+                }
+            }
+            .sub {
+                font-size: 12.5px;
+            }
+        }
+        .banner-boxes-item {
+            margin-top: 30px;
+        }
+        .banner-bottom {
+            .left-image {
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .emergency-trauma-care-banner-image {
+        height: 450px;
+        margin-top: 30px;
+    }
+
+    .etc-overview-area {
+        margin: 0 0;
+
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 540px;
+        }
+    }
+    .etc-overview-content {
+        margin: 0 auto 25px;
+
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .etc-overview-list {
+        li {
+            a {
+                padding: 7px 25px;
+            }
+        }
+    }
+
+    .etc-about-content {
+        h2 {
+            font-size: 25px;
+        }
+        .inner-about {
+            margin-top: 20px;
+
+            .left-box {
+                padding: 20px;
+
+                .bottom {
+                    .info {
+                        .image {
+                            img {
+                                max-width: 50px;
+                            }
+                        }
+                        .title {
+                            h3 {
+                                font-size: 17px;
+                            }
+                            span {
+                                margin-top: 7px;
+                            }
+                        }
+                    }
+                }
+            }
+            .right-box {
+                margin-top: 15px;
+            }
+        }
+    }
+    .etc-about-image {
+        padding-left: 0;
+        margin-top: 25px;
+
+        .list {
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .etc-services-area {
+        .container-fluid {
+            padding: {
+                left: 0;
+                right: 0;
+            };
+        }
+    }
+    .etc-services-card {
+        padding: 20px;
+
+        .icon {
+            margin-bottom: 12px;
+        }
+        h3 {
+            margin-bottom: 10px;
+        }
+        .list {
+            margin-top: 17px;
+        }
+    }
+
+    .etc-emergency-tips-content {
+        padding: 20px;
+
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .etc-emergency-tips-inner {
+        padding: 20px;
+        margin-top: 25px;
+
+        .tips-image {
+            height: 350px;
+        }
+        .tips-content {
+            padding: 25px 0 0;
+
+            h3 {
+                font-size: 25px;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    .etc-appointment-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 540px;
+        }
+    }
+    .etc-appointment-form {
+        padding: 25px;
+        margin: 0;
+
+        .content {
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+    .etc-appointment-location-btn {
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+    .etc-appointment-map {
+        margin-left: 0;
+        height: 350px;
+        margin-top: 30px;
+
+        .wrap {
+            padding: 20px;
+            right: 20px;
+            top: 20px;
+
+            h5 {
+                font-size: 18.5px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .etc-team-card {
+        .content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .etc-testimonials-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 540px;
+        }
+    }
+    .etc-testimonials-inner {
+        padding: {
+            top: 200px;
+            left: 20px;
+            right: 20px;
+            bottom: 50px;
+        };
+    }
+    .etc-testimonials-card {
+        padding: 20px;
+
+        h5 {
+            font-size: 17px;
+        }
+        .info {
+            .image {
+                img {
+                    max-width: 50px;
+                }
+            }
+        }
+    }
+
+    .etc-working-hours-info {
+        padding: 20px;
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+        .list {
+            li {
+                font-size: 13.5px;
+            }
+        }
+        .hotline {
+            margin-top: 20px;
+
+            .icon {
+                margin-right: 8px;
+
+                i {
+                    height: 30px;
+                    width: 30px;
+                    line-height: 30px;
+                    font-size: 18px;
+                }
+            }
+            .sub {
+                font-size: 12.5px;
+            }
+        }
+    }
+    .etc-working-hours-app-info {
+        padding: 20px;
+        margin-top: 25px;
+
+        h2 {
+            font-size: 25px;
+        }
+        .app-list {
+            li {
+                margin-right: 10px;
+            }
+        }
+        .group-info {
+            display: block;
+            margin-top: 30px;
+
+            h5 {
+                font-size: 20.5px;
+                margin-bottom: 20px;
+            }
+            img {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .etc-blog-card {
+        .content {
+            padding: 20px;
+
+            .entry-meta {
+                display: inline-block;
+                
+                li {
+                    margin: {
+                        right: 0;
+                        bottom: 12px;
+                    };
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .optional-copyright-area {
+        margin-top: 25px;
+    }
+
+    // Orthopedic Care Demo Responsive
+    .navbar-area-optional {
+        &.optional-wrap {
+            .navbar-middle-logo {
+                display: none;
+            }
+        }
+    }
+
+    .orthopedic-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 540px;
+        }
+    }
+    .orthopedic-care-banner-inner {
+        position: relative;
+        z-index: 1;
+        padding: {
+            top: 50px;
+            left: 20px;
+            right: 20px;
+            bottom: 50px;
+        };
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #000000;
+            z-index: -1;
+            opacity: .70;
+        }
+    }
+    .orthopedic-care-banner-content {
+        .sub-top {
+            .image {
+                img {
+                    filter: brightness(0) invert(1);
+                }
+            }
+            .title {
+                span {
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+            }
+        }
+        h1 {
+            font-size: 35px;
+            margin-bottom: 10px;
+            line-height: 1.3;
+            color: #ffffff;
+        }
+        p {
+            font-size: 15px;
+            color: #ffffff;
+        }
+    }
+    .orthopedic-care-banner-info {
+        margin-top: 30px;
+        text-align: start;
+
+        h4 {
+            font-size: 18.5px;
+            color: #ffffff;
+        }
+        h5 {
+            font-size: 17.5px;
+            color: #ffffff;
+
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .oc-features-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 540px;
+        }
+    }
+
+    .oc-about-top-content {
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .oc-about-item {
+        .item {
+            margin-bottom: 25px;
+        }
+    }
+    .oc-about-content {
+        padding-left: 0;
+
+        .inner-info {
+            display: block;
+            margin-top: 25px;
+
+            .about-btn {
+                margin: {
+                    right: 0;
+                    bottom: 15px;
+                };
+            }
+            .hotline {
+                .sub {
+                    font-size: 18.5px;
+                }
+            }
+        }
+    }
+
+    .oc-services-area {
+        .container-fluid {
+            padding: {
+                left: 0;
+                right: 0;
+            };
+        }
+    }
+    .oc-services-inner {
+        overflow: hidden;
+    }
+    .oc-services-content {
+        margin-bottom: 30px;
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+    }
+    .oc-services-items {
+        .item {
+            margin-left: 0;
+
+            .image {
+                position: relative;
+                left: 0;
+                margin-bottom: 25px;
+            }
+            .content {
+                .title {
+                    h3 {
+                        font-size: 20.5px;
+                    }
+                }
+            }
+        }
+    }
+    .oc-services-shape {
+        position: relative;
+        max-width: 100%;
+        bottom: -55px;
+        margin-top: 30px;
+    }
+
+    .oc-working-hours-info {
+        padding: 20px;
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+        .list {
+            li {
+                font-size: 13.5px;
+            }
+        }
+        .hotline {
+            margin-top: 20px;
+
+            .icon {
+                margin-right: 8px;
+
+                i {
+                    height: 30px;
+                    width: 30px;
+                    line-height: 30px;
+                    font-size: 18px;
+                }
+            }
+            .sub {
+                font-size: 12.5px;
+            }
+        }
+    }
+    .oc-working-hours-app-info {
+        padding: 20px;
+        margin-top: 25px;
+
+        h2 {
+            font-size: 25px;
+        }
+        .app-list {
+            li {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .oc-appointment-area {
+        margin: 0 0;
+    }
+    .oc-appointment-form {
+        h4 {
+            font-size: 20px;
+            margin-bottom: 22px;
+        }
+    }
+    
+    .oc-faq-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 540px;
+        }
+    }
+    .oc-faq-image {
+        height: 450px;
+    }
+    .oc-faq-accordion {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .oc-faq-accordion {
+        h2 {
+            font-size: 25px;
+            margin-bottom: 25px;
+        }
+        .accordion {
+            .accordion-item {
+                margin-bottom: 30px;
+                padding-bottom: 30px;
+            }
+            .accordion-title {
+                font-size: 18.5px;
+            }
+        }
+    }
+
+    .oc-blog-area {
+        margin: 0 0;
+    }
+    .oc-blog-card {
+        .content {
+            .entry-meta {
+                display: inline-block;
+
+                li {
+                    margin: {
+                        right: 0;
+                        bottom: 15px;
+                    };
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .footer-optional-area {
+        &.gap-wrap {
+            margin: 0 0;
+        }
+    }
+
+    /* End "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+
+    // New Inner Pages Responsive
+    .cart-table {
+        table {
+            tbody {
+                tr {
+                    td {
+                        padding-right: 180px;
+                    }
+                }
+            }
+        }
+    }
+    .cart-buttons {
+        .shopping-coupon-code {
+            margin-bottom: 20px;
+
+            button {
+                padding: 0 10px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .checkout-top-title {
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .checkout-info-form {
+        padding: 25px;
+    }
+    .checkout-sidebar {
+        padding: 20px;
+        margin-top: 35px;
+    }
+
+    .products-details-desc {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .products-details-tabs {
+        .tab-content {
+            .tab-pane {
+                .products-review-comments {
+                    .user-review {
+                        padding: 0 0 20px 85px;
+
+                        img {
+                            width: 70px;
+                            height: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .login-form form {
+        .lost-your-password {
+            text-align: right;
+            margin-top: 0;
+        }
+    }
+    .main-slides-content {
+        .slides-btn {
+            .checkup-content {
+                margin-left: 15px;
+                margin-top: 0;
+            }
+        }
+    }
+    .home-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    bottom: 80px;
+                }
+            }
+        }
+    }
+
+    // New Three Demo Responsive
+
+
+    /* Start "Covid 19 Vaccination Center Demo Responsive" */
+
+    .covid-testimonials-inner {
+        padding: 45px;
+    }
+
+    /* End "Covid 19 Vaccination Center Demo Responsive" */
+
+    /* Start "Hospital Website Demo Responsive" */
+
+    .hospital-specialist-card {
+        .specialist-content {
+            padding: 15px 0 15px 65px;
+
+            img {
+                max-width: 50px;
+            }
+        }
+    }
+
+    /* End "Hospital Website Demo Responsive" */
+
+
+    /* Start "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+
+    // Emergency & Trauma Care Demo Responsive
+    .etc-blog-card {
+        .content {
+            padding: 20px;
+
+            .entry-meta {
+                display: flex;
+                
+                li {
+                    margin: {
+                        right: 12px;
+                        bottom: 0;
+                    };
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    // Orthopedic Care Demo Responsive
+    .oc-blog-card {
+        .content {
+            .entry-meta {
+                display: flex;
+
+                li {
+                    margin: {
+                        right: 15px;
+                        bottom: 0;
+                    };
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    /* End "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pb-100 {
+        padding-bottom: 70px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .section-title-warp {
+        text-align: center;
+        margin-bottom: 35px;
+        
+        h2 {
+            font-size: 35px;
+        }
+    }
+    .section-warp-btn {
+        display: none;
+    }
+    .top-header-area {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .top-header-information {
+        text-align: center;
+    }
+    .top-header-optional {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .middle-header-area {
+        border-bottom: 1px solid #eeeeee;
+    }
+    .middle-header {
+        h1 {
+            display: none;
+        }
+    }
+    .middle-header-content {
+        text-align: center;
+
+        li {
+            padding-left: 0;
+            text-align: center;
+            font-size: 15px;
+
+            i {
+                position: relative;
+                top: unset;
+                transform: unset;
+                display: block;
+            }
+            span {
+                font-size: 20px;
+            }
+        }
+    }
+    .mean-container {
+        a {
+            &.meanmenu-reveal {
+                padding: 6px 0 0 0;
+
+                span {
+                    display: block;
+                    background: #000;
+                    height: 4px;
+                    margin-top: -5px;
+                    border-radius: 3px;
+                    position: relative;
+                    top: 8px;
+                }
+            }
+        }
+        .mean-bar {
+            background-color: unset;
+            border-bottom: none;
+        }
+        .mean-nav {
+            margin-top: 55px;
+        }
+    }
+    .others-option-for-responsive {
+        .dot-menu {
+            top: -35px;
+        }
+        .container {
+            .container {
+                right: 20px;
+                max-width: 230px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 5px;
+                text-align: center;
+            }  
+        }   
+        .option-inner {
+            .others-options {
+                margin-left: 0;
+
+                .option-item {
+                    margin-bottom: 10px;
+                    margin-right: 0;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    .language-switcher {
+                        .dropdown-menu {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+                &.d-flex {
+                    display: block !important;
+                }
+            }
+        }
+    } 
+    .main-slides-item {
+        padding-top: 95px;
+        padding-bottom: 170px;
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            z-index: -1;
+            opacity: .70;
+        }
+    }
+    .home-slides {
+        &.owl-theme {
+            .owl-nav {
+                opacity: 1;
+                visibility: visible;
+    
+                [class*=owl-] {
+                    top: unset;
+                    transform: unset;
+                    bottom: 30px;
+                }
+            }
+        }
+    }
+    // New
+    .eye-care-slider.owl-theme {
+        .owl-nav {
+            top: 90%;
+            left: 0;
+            right: 0;
+        }
+    }
+    .features-area {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    .single-features {
+        text-align: center;
+        padding: 35px 25px;
+
+        .content {
+            padding-left: 0;
+
+            .icon {
+                position: relative;
+                top: 0;
+                margin-bottom: 20px;
+
+                i {
+                    line-height: 1;
+                }
+            }
+        }
+    }
+    .overview-area {
+        padding-top: 70px;
+    }
+    .overview-content {
+        margin-top: 0;
+    }
+    .overview-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .appointment-overview-area {
+        margin-top: 0;
+        padding-top: 70px;
+    }
+    .appointment-overview-contact {
+        margin-bottom: 30px;
+    }
+    .appointment-overview-box {
+        border-top: 1px solid #06a3da;
+
+        .content {
+            .box-image {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .about-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .single-core-features {
+        text-align: center;
+
+        h3 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .single-doctor {
+        .doctor-content {
+            padding: 25px 20px;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .single-review-item {
+        padding: 55px 20px 55px;
+
+        p {
+            font-size: 15px;
+        }
+        .review-info {
+            margin-top: 30px;
+
+            h3 {
+                font-size: 18px;
+            }
+            img {
+                top: -10px;
+            }
+        }
+    }
+    .review-slides {
+        &.owl-theme {
+            .owl-nav.disabled+.owl-dots {
+                margin-top: 30px;
+            }
+        }
+    }
+    .single-blog {
+        .blog-content {
+            padding: 20px;
+
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .about-image {
+        .about-inner-box {
+            right: 35px;
+        }
+    }
+    .gallery-area {
+        &.bg-091e3e {
+            padding-bottom: 120px;
+        }
+    }
+    .single-features-box {
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .main-banner-item {
+        padding-top: 80px;
+
+        .container-fluid {
+            padding-right: 15px;
+        }
+    }
+    .main-banner-content {
+        text-align: center;
+        margin: auto;
+    }
+    .main-banner-image {
+        margin-top: 50px;
+
+        img {
+            border-radius: 0;
+        }
+    }
+    .widget-area {
+        margin-top: 30px;
+    }
+
+    // New Three Demo Responsive
+
+    // Dental Tourism Responsive CSS
+    .dental-tourism-top-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .top-dental-tourism-information {
+        text-align: center;
+
+        li {
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &.with-left {
+            margin-left: 0;
+        }
+    }
+    .top-dental-tourism-optional {
+        text-align: center;
+        margin-top: 10px;
+
+        li {
+            a {
+                i {
+                    top: 0;
+                }
+            }
+        }
+    }
+    .dental-tourism-banner-area {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            background-color: #ffffff;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            opacity: .77;
+        }
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .dental-tourism-banner-content {
+        h1 {
+            font-size: 45px;
+        }
+    }
+    .single-dental-tourism-features {
+        .content {
+            padding-left: 0;
+
+            .icon-image {
+                position: relative;
+                margin-bottom: 20px;
+                height: 70px;
+                width: 70px;
+                line-height: 70px;
+
+                img {
+                    max-width: 30px;
+                }
+                .number {
+                    display: none;
+                }
+            }
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .pb-75 {
+        padding-bottom: 45px;
+    }
+    .dental-tourism-about-image {
+        img {
+            width: 100%;
+        }
+    }
+    .dental-tourism-about-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 24px;
+        }
+    }
+    .dental-tourism-services-area {
+        .container-fluid {
+            left: 0;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .dental-tourism-choose-content {
+        h3 {
+            font-size: 24px;
+        }
+        .choose-inner-content {
+            h4 {
+                font-size: 18px;
+            }
+        }
+    }
+    .dental-tourism-choose-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .dental-tourism-appointment-form {
+        h4 {
+            font-size: 22px;
+        }
+    }
+    .dental-tourism-dentist-card {
+        .dentist-content {
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .dental-tourism-tourists-content {
+        h3 {
+            font-size: 24px;
+        }
+    }
+    .dental-tourism-tourists-image {
+        margin-top: 30px;
+
+        .tourists-image {
+            .content {
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: "Heebo", sans-serif;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .dental-tourism-review-card {
+        padding: 20px;
+
+        .review-info {
+            padding-left: 65px;
+
+            img {
+                max-width: 50px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .icon-quote {
+            right: 25px;
+            bottom: 15px;
+        }
+    }
+    .dental-tourism-blog-card {
+        .blog-content {
+            padding-left: 0;
+
+            .entry-meta {
+                li {
+                    font-size: 12px;
+                    margin-right: 5px;
+                }
+            }
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .dental-tourism-footer-widget {
+        h3 {
+            font-size: 22px;;
+        }
+    }
+    .dental-tourism-copyright-area {
+        margin-top: 25px;
+    }
+
+    // Skin Care Responsive CSS
+    .top-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .top-information-wrap {
+        text-align: center;
+
+        li {
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &.with-left {
+            margin-left: 0;
+        }
+    }
+    .top-optional-wrap {
+        text-align: center;
+        margin-top: 10px;
+
+        li {
+            a {
+                i {
+                    top: 0;
+                }
+            }
+        }
+    }
+    .skin-care-banner-area {
+        padding-top: 250px;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .skin-care-banner-content {
+        h1 {
+            font-size: 50px;
+        }
+    }
+    .skin-care-banner-shape {
+        display: none;
+    }
+    .skin-care-banner-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .skin-care-features-card {
+        padding: 20px;
+
+        .features-title {
+            padding-left: 0;
+            padding-top: 0;
+            margin-bottom: 15px;
+
+            .icon-image {
+                position: relative;
+                margin-bottom: 25px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .skin-care-about-image {
+        .skin-care-fun-fact {
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            padding: 20px;
+
+            .fun-fact {
+                h3 {
+                    font-size: 35px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .skin-care-about-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 24px;
+        }
+    }
+    .skin-care-services-card {
+        .services-image {
+            .icon {
+                i {
+                    height: 80px;
+                    width: 80px;
+                    line-height: 80px;
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    .skin-care-dry-content {
+        h3 {
+            font-size: 25px;
+        }
+        .dry-list {
+            li {
+                img {
+                    max-width: 40px;
+                }
+            }  
+        }      
+    }
+    .skin-care-dry-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .skin-care-appointment-image {
+        height: 450px;
+    }
+    .skin-care-appointment-form {
+        padding: 50px 20px;
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+    .skin-care-blog-card {
+        .blog-content {
+            padding-left: 0;
+
+            .entry-meta {
+                li {
+                    font-size: 12px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .skin-care-partner-inner-box {
+        padding: 50px 10px;
+    }
+    .skin-care-footer-area {
+        padding-top: 170px;
+    }
+    .skin-care-copyright-area {
+        margin-top: 25px;
+    }
+
+    // Skin Care Responsive CSS
+    .eye-care-banner-area {
+        padding-top: 230px;
+
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .eye-care-banner-content {
+        padding: 20px;
+        margin-right: 0;
+
+        h1 {
+            font-size: 50px;
+            font-family: "Heebo", sans-serif;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        .banner-btn-with-info {
+            li {
+                &.banner-btn {
+                    .default-btn {
+                        padding: 15px;
+                    }
+                }
+                img {
+                    max-width: 35px;
+                }
+                &.title {
+                    display: none;
+                }
+            }
+        }
+    }
+    .eye-care-features-card {
+        &::before {
+            display: none;
+        }
+    }
+    .eye-care-about-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .eye-care-services-card {
+        padding: 20px;
+
+        .icon {
+            i {
+                height: 70px;
+                width: 70px;
+                line-height: 70px;
+                font-size: 38px;
+            }
+        }
+    }
+    .eye-care-services-slides {
+        &.owl-theme {
+            .owl-nav {
+                display: none;
+            }
+        }
+    }
+    .eye-care-solutions-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .eye-care-review-slides {
+        margin-left: 0;
+    }
+    .eye-care-testimonials-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .eye-care-testimonials-image {
+        height: 450px;
+        margin-top: 50px;
+    }
+    .eye-care-testimonials-content-box {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .content {
+            margin-left: 0;
+
+            h3 {
+                font-size: 24px;
+            }
+        }
+    }
+    .eye-care-review-card {
+        padding: 30px 20px;
+
+        .review-info {
+            padding-left: 65px;
+
+            img {
+                max-width: 50px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .icon-quote {
+            display: none;
+        }
+    }
+    .eye-care-review-slides {
+        &.owl-theme {
+            .owl-nav.disabled + .owl-dots {
+                right: 20px;
+                bottom: 20px;
+            }
+        }
+    }
+    .eye-care-treatment-content {
+        padding-left: 0;
+        margin-top: 30px;
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+    .eye-care-blog-card {
+        padding: 20px;
+    }
+    .newsletter-inner-box {
+        padding: 50px 20px;
+
+        .newsletter-content {
+            margin-bottom: 30px;
+        }
+    }
+    .eye-care-footer-area {
+        padding-top: 165px;
+    }
+    .eye-care-copyright-area {
+        margin-top: 25px;
+    }
+
+    /* Start "Covid 19 Vaccination Center Demo Responsive" */
+
+    .covid-top-area {
+        .top-optional-wrap {
+            text-align: center;
+            margin: {
+                top: 0;
+                bottom: 10px;
+            };
+        }
+        .top-information-wrap {
+            text-align: center;
+        }
+    }
+
+    .covid-banner-area {
+        padding: {
+            top: 250px;
+            bottom: 80px;
+        };
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .covid-banner-content {
+        top: 0;
+
+        h1 {
+            font-size: 55px;
+        }
+    }
+    .covid-banner-image {
+        text-align: center;
+        margin-top: 35px;
+    }
+    
+    .covid-check-form-inner {
+        padding: {
+            left: 50px;
+            right: 50px;
+        };
+    }
+
+    .covid-vaccine-card {
+        .vaccine-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .covid-about-content {
+        padding-left: 0;
+        margin-top: 35px;
+
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .covid-registration-image {
+        padding-left: 0;
+        margin-top: 35px;
+
+        .content {
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .covid-process-card {
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .covid-tracker-card {
+        padding: 20px;
+
+        .tracker-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .covid-protection-content {
+        .content {
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+    .covid-protection-fun-fact {
+        margin-top: 35px;
+        margin-right: 0;
+        padding: {
+            left: 55px;
+            right: 55px;
+        };
+        .fun-fact {
+            text-align: center;
+
+            h3 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .covid-testimonials-inner {
+        padding: 25px;
+    }
+    .covid-testimonials-small-image1, .covid-testimonials-small-image2, .covid-testimonials-small-image3, .covid-testimonials-small-image4, .covid-testimonials-small-image5, .covid-testimonials-small-image6 {
+        display: none;
+    }
+    .covid-testimonials-card {
+        h3 {
+            font-size: 18px;
+        }
+    }
+
+    .covid-blog-card {
+        .blog-content {
+            padding: 20px;
+
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .covid-footer-widget {
+        &.ps-5 {
+            padding-left: 0 !important;
+        }
+    }
+    .covid-copyright-area {
+        margin-top: 25px;
+    }
+
+    .covid-page-banner-area {
+        padding-top: 250px;
+    }
+    .covid-page-banner-content {
+        top: 0;
+
+        h3 {
+            font-size: 45px;
+        }
+    }
+    .covid-page-banner-image {
+        margin-top: 35px;
+    }
+
+    .covid-testimonials-wrap-card {
+        .info {
+            .title {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .how-vaccines-work-desc {
+        .content {
+            h3 {
+                font-size: 25px;
+            }
+            h4 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .how-vaccines-work-sidebar {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .covid-faq-image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .covid-blog-details-desc {
+        padding-right: 0;
+        
+        .content {
+            h3 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .covid-tracker-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+    .covid-blog-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+    .covid-doctors-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /* End "Covid 19 Vaccination Center Demo Responsive" */
+
+    /* Start "Hospital Website Demo Responsive" */
+
+    .hospital-top-area {
+        .top-optional-wrap {
+            text-align: center;
+
+            margin: {
+                top: 0;
+                bottom: 10px;
+            };
+        }
+        .top-information-wrap {
+            text-align: center;
+        }
+    }
+
+    .hospital-banner-area {
+        .container-fluid {
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            max-width: 720px;
+        }
+    }
+    .hospital-banner-content {
+        top: 0;
+        
+        h1 {
+            font-size: 40px;
+        }
+    }
+    .hospital-banner-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .hospital-specialist-card {
+        .specialist-content {
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .hospital-about-content {
+        margin-top: 30px;
+        
+        h3 {
+            font-size: 30px;
+        }
+    }
+    .hospital-about-shape {
+        display: none;
+    }
+
+    .hospital-services-area {
+        .section-title {
+            &.with-hospital-color {
+                text-align: center !important;
+
+                &.d-flex {
+                    display: block !important;
+                }
+                .div {
+                    &.text-start {
+                        text-align: center !important;
+                    }
+                }
+                .default-btn {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-services-card {
+        .title {
+            h3 {
+                font-size: 18px;
+            }
+        }
+        .services-btn {
+            font-size: 14px;
+        }
+    }
+    .hospital-services-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-skills-content {
+        h3 {
+            font-size: 30px;
+        }
+    }
+    .hospital-skills-image {
+        padding-left: 0;
+        margin-top: 35px;
+    }
+
+    .hospital-fun-fact {
+        h3 {
+            font-size: 35px;
+
+            .plus {
+                font-size: 30px;
+                left: -5px;
+            }
+        }
+        p {
+            font-size: 15px;
+        }
+        .shape {
+            max-width: 75px;
+            margin: auto;
+        }
+    }
+
+    .hospital-team-card {
+        .team-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .hospital-team-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-app-area {
+        padding-bottom: 70px;
+    }
+    .hospital-app-image {
+        text-align: center;
+    }
+    .hospital-app-content {
+        padding-left: 0;
+        top: 0;
+        margin-top: 30px;
+        
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .hospital-call-to-action-content {
+        span {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .hospital-testimonials-area {
+        .section-title {
+            &.with-hospital-color {
+                text-align: center !important;
+            }
+        }
+    }
+    .hospital-testimonials-card {
+        p {
+            font-size: 15px;
+            &::after {
+                display: none;
+            }
+        }
+        .info-content {
+            .info {
+                .title {
+                    h3 {
+                        font-size: 18px;
+                    }
+                    span {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .rating {
+                display: none;
+            }
+        }
+    }
+    .hospital-testimonials-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-blog-card {
+        .blog-image {
+            .date {
+                display: none;
+            }
+        }
+        .blog-content {
+            .meta {
+                li {
+                    font-size: 14px;
+                }
+            }
+            h3 {
+                font-size: 20px;
+            }
+            .blog-btn {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .hospital-information-card {
+        padding: 25px 20px;
+
+        .content {
+            padding-left: 80px;
+
+            .icon {
+                i {
+                    height: 65px;
+                    width: 65px;
+                    line-height: 65px;
+                    font-size: 35px;
+                }
+            }
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .hospital-footer-widget {
+        &.ps-5 {
+            padding-left: 0 !important;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        .quick-links {
+            li {
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+        .hours-list {
+            li {
+                font-size: 15px;
+            }
+        }
+    }
+    .hospital-copyright-area {
+        margin-top: 45px;
+    }
+
+    .hospital-choice-content {
+        margin-top: 35px;
+        
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .hospital-widget-area {
+        margin: {
+            top: 0;
+            bottom: 30px;
+        };
+    }
+
+    .hospital-services-details-desc {
+        padding-left: 0;
+
+        .content {
+            h3 {
+                font-size: 30px;
+            }
+            h4 {
+                font-size: 25px;
+            }
+        }
+        .services-details-card {
+            h4 {
+                font-size: 18px;
+            }
+        }
+        .services-details-inner-content {
+            h4 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .hospital-testimonials-wrap-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hospital-appointment-area-with-color {
+        padding: {
+            top: 70px;
+            bottom: 70px;
+        };
+        .hospital-appointment-form {
+            top: 0;
+            margin-top: 35px;
+
+            .content {
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .hospital-portfolio-details-info {
+        margin-top: 35px;
+    }
+
+    .hospital-blog-details-desc {
+        padding-left: 0;
+    }
+
+    .hospital-contact-information-area {
+        padding-top: 70px;
+    }
+    .hospital-contact-information-content {
+        top: 0;
+
+        .info {
+            padding-left: 0;
+
+            .icon {
+                position: relative;
+                margin-bottom: 20px;
+
+                i {
+                    height: 60px;
+                    width: 60px;
+                    line-height: 60px;
+                    font-size: 35px;
+                }
+            }
+            span {
+                font-size: 15px;
+            }
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+    .hospital-contact-information-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /* End "Hospital Website Demo Responsive" */
+
+
+    /* Start "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+
+    // Emergency & Trauma Care Demo Responsive
+
+    .emergency-trauma-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 720px;
+        }
+    }
+    .emergency-trauma-care-banner-content {
+        padding: {
+            top: 55px;
+            right: 0;
+        };
+        .banner-boxes-item {
+            .item {
+                padding: 20px;
+            }
+        }
+        .banner-bottom {
+            .left-image {
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .emergency-trauma-care-banner-image {
+        height: 650px;
+        margin-top: 30px;
+    }
+
+    .etc-overview-area {
+        margin: 0 0;
+
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 720px;
+        }
+    }
+    .etc-overview-content {
+        margin: 0 auto 35px;
+    }
+
+    .etc-about-content {
+        .inner-about {
+            margin-top: 20px;
+
+            .right-box {
+                padding: 18px 25px;
+            }
+        }
+    }
+    .etc-about-image {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .etc-services-area {
+        .container-fluid {
+            padding: {
+                left: 0;
+                right: 0;
+            };
+        }
+    }
+    .etc-services-card {
+        padding: 20px;
+
+        .icon {
+            margin-bottom: 12px;
+        }
+        h3 {
+            margin-bottom: 10px;
+        }
+        .list {
+            margin-top: 17px;
+        }
+    }
+
+    .etc-emergency-tips-content {
+        padding: 30px;
+    }
+    .etc-emergency-tips-inner {
+        padding: 30px;
+        margin-top: 25px;
+    }
+
+    .etc-appointment-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 720px;
+        }
+    }
+    .etc-appointment-form {
+        padding: 30px;
+        margin: 0;
+    }
+    .etc-appointment-location-btn {
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+    .etc-appointment-map {
+        margin-left: 0;
+        height: 350px;
+        margin-top: 30px;
+
+        .wrap {
+            padding: 20px;
+            right: 20px;
+            top: 20px;
+
+            h5 {
+                font-size: 18.5px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .etc-testimonials-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 720px;
+        }
+    }
+    .etc-testimonials-inner {
+        padding: {
+            top: 200px;
+            left: 20px;
+            right: 20px;
+            bottom: 50px;
+        };
+    }
+
+    .etc-working-hours-info {
+        padding: 30px;
+    }
+    .etc-working-hours-app-info {
+        padding: 30px;
+        margin-top: 25px;
+    }
+
+    .etc-blog-card {
+        .content {
+            padding: 20px;
+
+            .entry-meta {
+                display: inline-block;
+                
+                li {
+                    margin: {
+                        right: 0;
+                        bottom: 12px;
+                    };
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .optional-copyright-area {
+        margin-top: 45px;
+    }
+
+    // Orthopedic Care Demo Responsive
+    .navbar-area-optional {
+        &.optional-wrap {
+            .navbar-middle-logo {
+                display: none;
+            }
+        }
+    }
+
+    .orthopedic-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 720px;
+        }
+    }
+    .orthopedic-care-banner-inner {
+        position: relative;
+        z-index: 1;
+        padding: {
+            top: 150px;
+            left: 40px;
+            right: 40px;
+            bottom: 70px;
+        };
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #000000;
+            z-index: -1;
+            opacity: .70;
+        }
+    }
+    .orthopedic-care-banner-content {
+        .sub-top {
+            .image {
+                img {
+                    filter: brightness(0) invert(1);
+                }
+            }
+            .title {
+                span {
+                    color: #ffffff;
+                }
+            }
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 80px;
+        }
+        p {
+            color: #ffffff;
+        }
+    }
+    .orthopedic-care-banner-info {
+        margin-top: 30px;
+        text-align: start;
+
+        h4 {
+            color: #ffffff;
+        }
+        h5 {
+            color: #ffffff;
+
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .oc-features-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 720px;
+        }
+    }
+
+    .oc-about-item {
+        .item {
+            margin-bottom: 25px;
+        }
+    }
+    .oc-about-content {
+        padding-left: 0;
+    }
+
+    .oc-services-area {
+        .container-fluid {
+            padding: {
+                left: 0;
+                right: 0;
+            };
+        }
+    }
+    .oc-services-inner {
+        overflow: hidden;
+    }
+    .oc-services-content {
+        margin-bottom: 40px;
+    }
+    .oc-services-shape {
+        position: relative;
+        max-width: 100%;
+        bottom: -75px;
+        margin-top: 0;
+    }
+
+    .oc-working-hours-info {
+        padding: 30px;
+    }
+    .oc-working-hours-app-info {
+        padding: 30px;
+        margin-top: 25px;
+    }
+
+    .oc-appointment-area {
+        margin: 0 0;
+    }
+    .oc-appointment-form {
+        h4 {
+            margin-bottom: 22px;
+        }
+    }
+    
+    .oc-faq-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 720px;
+        }
+    }
+    .oc-faq-image {
+        height: 650px;
+    }
+    .oc-faq-accordion {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+
+    .oc-blog-area {
+        margin: 0 0;
+    }
+    .oc-blog-card {
+        .content {
+            .entry-meta {
+                display: inline-block;
+
+                li {
+                    margin: {
+                        right: 0;
+                        bottom: 15px;
+                    };
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-optional-area {
+        &.gap-wrap {
+            margin: 0 0;
+        }
+    }
+
+    /* End "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+
+    // New Inner Pages Responsive
+    .checkout-sidebar {
+        margin-top: 35px;
+    }
+
+    .products-details-desc {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .top-header-information {
+        li {
+            font-size: 14px;
+            margin-right: 10px;
+        }   
+    }
+    .section-title-warp {
+        h2 {
+            font-size: 32px;
+        }
+    }
+    .main-navbar {
+        .navbar {
+            .navbar-nav {
+                .nav-item {
+                    margin-left: 15px;
+                    margin-right: 15px;
+
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+            .others-options {
+                .option-item {
+                    margin-right: 15px;
+
+                    .navbar-btn {
+                        .default-btn {
+                            padding: 20px 25px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .home-slides {
+        &.owl-theme {
+            .owl-nav {
+                opacity: 1;
+                visibility: visible;
+    
+                [class*=owl-] {
+                    top: unset;
+                    transform: unset;
+                    bottom: 100px;
+                }
+            }
+        }
+    }
+    // New
+    .eye-care-slider.owl-theme {
+        .owl-nav {
+            right: 50px;
+            [class*=owl-] {
+                width: 55px;
+                height: 55px;
+                i {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .single-features {
+        padding: 31px 25px;
+
+        .content {
+            padding-left: 65px;
+
+            h3 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 15px;
+            }
+            .icon {
+                i {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+    .single-services {
+        .services-content {
+            padding: 35px 25px;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .appointment-overview-contact {
+        &::before {
+            height: 100%;
+        }
+        .appointment-info {
+            padding: 12px;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .appointment-overview-box {
+        .content {
+            h4 {
+                font-size: 20px;
+                margin-bottom: 25px;
+            }
+        }
+        .make-appointment-content {
+            h4 {
+                font-size: 20px;
+                margin-bottom: 18px;
+            }
+        }
+    }
+    .single-core-features {
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    }
+    .single-doctor {
+        .doctor-content {
+            padding: 25px;
+
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .single-features-box {
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .single-services-box {
+        padding: 25px;
+    }
+    .main-banner-content {
+        max-width: 470px;
+        
+        h1 {
+            font-size: 38px;
+        }
+    }
+    .single-services-item {
+        .services-content {
+            padding: 35px 15px;
+        }   
+    } 
+    .services-details-list {
+        li {
+            i {
+                top: 0;
+            }
+        }
+    }
+
+    // New Three Demo Responsive
+
+    // Dental Tourism Responsive CSS
+    .top-dental-tourism-information {
+        &.with-left {
+            margin-left: 115px;
+        }
+    }
+    .dental-tourism-navbar {
+        .main-navbar {
+            .navbar {
+                ul {
+                    margin-left: 35px;
+                }
+                .navbar-brand {
+                    &::before {
+                        width: 185px;
+                        height: 160px;
+                        top: -102px;
+                    }
+                }
+            }
+        }
+    }
+    .dental-tourism-banner-content {
+        h1 {
+            font-size: 65px;
+        }
+    }
+    .single-dental-tourism-features {
+        .content {
+            padding-left: 90px;
+
+            .icon-image {
+                height: 70px;
+                width: 70px;
+                line-height: 70px;
+
+                img {
+                    max-width: 30px;
+                }
+            }
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .dental-tourism-services-area {
+        .container-fluid {
+            left: calc((100% - 950px)/2);
+        }
+    }
+    .dental-tourism-blog-card {
+        .blog-content {
+            padding-left: 0;
+
+            .entry-meta {
+                li {
+                    font-size: 12px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .dental-tourism-footer-widget {
+        h3 {
+            font-size: 20px;
+        }
+        .share-link {
+            li {
+                display: inline-block;
+                margin-right: 5px;
+
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    // Skin Care Responsive CSS
+    .grin-care-navbar {
+        .main-navbar {
+            .navbar {
+                padding: 10px;
+                .navbar-nav {
+                    .nav-item {
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                }
+                .others-options {
+                    .option-item {
+                        &::before {
+                            right: -10px;
+                        }
+                        .navbar-btn {
+                            .default-btn {
+                                padding: 20px 15px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .skin-care-banner-area {
+        padding-top: 145px;
+    }
+    .skin-care-banner-content {
+        h1 {
+            font-size: 45px;
+        }
+    }
+    .skin-care-features-card {
+        padding: 20px;
+
+        .features-title {
+            padding-left: 75px;
+            padding-top: 24px;
+            margin-bottom: 35px;
+
+            .icon-image {
+                height: 60px;
+                width: 60px;
+                line-height: 60px;
+
+                img {
+                    max-width: 30px;
+                }
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+    .skin-care-about-image {
+        .skin-care-fun-fact {
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            padding: 25px;
+        }
+    }
+    .skin-care-appointment-form {
+        padding: 50px 10px;
+
+        h4 {
+            font-size: 35px;
+        }
+    }
+    .skin-care-blog-card {
+        .blog-content {
+            padding-left: 0;
+
+            .entry-meta {
+                li {
+                    font-size: 12px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .skin-care-footer-widget {
+        h3 {
+            font-size: 20px;
+        }
+        .share-link {
+            li {
+                display: inline-block;
+                margin-right: 5px;
+
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    // Skin Care Responsive CSS
+    .eye-care-banner-content {
+        padding: 30px;
+
+        h1 {
+            font-size: 50px;
+        }
+        .banner-btn-with-info {
+            li {
+                &.banner-btn {
+                    .default-btn {
+                        padding: 15px;
+                    }
+                }
+                img {
+                    max-width: 35px;
+                }
+            }
+        }
+    }
+    .eye-care-services-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -30px;
+    
+                    &.owl-next {
+                        left: auto;
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+    .eye-care-testimonials-content-box {
+        .content {
+            margin-left: 0;
+
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+    .eye-care-review-card {
+        padding: 28px 20px;
+
+        .icon-quote {
+            right: 25px;
+            top: 25px;
+        }
+    }
+    .eye-care-review-slides {
+        margin-left: -70px;
+
+        &.owl-theme {
+            .owl-nav.disabled + .owl-dots {
+                right: 20px;
+                bottom: 25px;
+            }
+        }
+    }
+    .eye-care-treatment-content {
+        .treatment-inner-content {
+            padding: 15px 15px 15px 55px;
+
+            .number {
+                height: 30px;
+                width: 30px;
+                line-height: 30px;
+                font-size: 20px;
+                left: 15px;
+            }
+        }
+    }
+    .eye-care-footer-widget {
+        h3 {
+            font-size: 20px;
+        }
+        .share-link {
+            li {
+                display: inline-block;
+                margin-right: 5px;
+
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    /* Start "Covid 19 Vaccination Center Demo Responsive" */
+
+    .covid-banner-content {
+        h1 {
+            font-size: 55px;
+        }
+        .banner-btn {
+            li {
+                margin-right: 10px;
+
+                .default-btn {
+                    padding: 15px 20px;
+                    font-size: 14px;
+                }
+                .video-btn {
+                    span {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .covid-check-form-inner {
+        padding: {
+            left: 50px;
+            right: 50px;
+        };
+    }
+
+    .covid-vaccine-card {
+        .vaccine-content {
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .covid-about-content {
+        h3 {
+            font-size: 35px;
+        }
+    }
+
+    .covid-registration-image {
+        .content {
+            h3 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .covid-process-card {
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .covid-protection-content {
+        .content {
+            h3 {
+                font-size: 35px;
+            }
+        }
+    }
+
+    .covid-protection-fun-fact {
+        .fun-fact {
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .covid-footer-widget {
+        &.ps-5 {
+            padding-left: 0 !important;
+        }
+    }
+
+    .how-vaccines-work-sidebar {
+        margin-left: 0;
+    }
+
+    .covid-info-card {
+        padding: 20px;
+    }
+
+    .covid-tracker-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+    .covid-blog-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+    .covid-doctors-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /* End "Covid 19 Vaccination Center Demo Responsive" */
+
+
+    /* Start "Hospital Website Demo Responsive" */
+
+    .hospital-banner-content {
+        span {
+            font-size: 14px;
+        }
+        h1 {
+            font-size: 45px;
+        }
+    }
+    .hospital-banner-image {
+        .circle {
+            height: 400px;
+            width: 400px;
+        }
+    }
+
+    .hospital-specialist-card {
+        padding: 15px;
+
+        .specialist-content {
+            padding: 15px 0 15px 60px;
+
+            img {
+                max-width: 45px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .hospital-about-content {
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .hospital-services-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -30px;
+
+                    &.owl-next {
+                        left: auto;
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hospital-skills-content {
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .hospital-team-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -30px;
+
+                    &.owl-next {
+                        left: auto;
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hospital-app-image {
+        .circle {
+            height: 425px;
+            width: 425px;
+        }
+    }
+    .hospital-app-content {
+        padding-left: 0;
+
+        h3 {
+            font-size: 30px;
+        }
+        .list {
+            li {
+                padding: 15px 15px 15px 50px;
+
+                img {
+                    left: 10px;
+                    max-width: 30px;
+                }
+                h4 {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .hospital-information-card {
+        padding: 25px 20px;
+
+        .content {
+            padding-left: 80px;
+
+            .icon {
+                i {
+                    height: 65px;
+                    width: 65px;
+                    line-height: 65px;
+                    font-size: 35px;
+                }
+            }
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .hospital-footer-widget {
+        &.ps-5 {
+            padding-left: 0 !important;
+        }
+        .share-link {
+            li {
+                a {
+                    height: 30px;
+                    width: 30px;
+                    line-height: 33px;
+                    border: none;
+                }
+            }
+        }
+        .quick-links {
+            li {
+                font-size: 14px;
+            }
+        }
+        .hours-list {
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .hospital-blog-card {
+        .blog-image {
+            .date {
+                display: none;
+            }
+        }
+    }
+
+    .hospital-testimonials-wrap-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -30px;
+
+                    &.owl-next {
+                        left: auto;
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hospital-appointment-area-with-color {
+        padding: {
+            top: 100px;
+            bottom: 100px;
+        };
+        .hospital-appointment-form {
+            top: 0;
+
+            .content {
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .hospital-portfolio-details-info {
+        padding: 20px;
+
+        .list {
+            li {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .hospital-portfolio-card {
+        .portfolio-content {
+            h3 {
+                font-size: 18px;
+            }
+            span {
+                font-size: 14.5px;
+            }
+        }
+    }
+
+    /* End "Hospital Website Demo Responsive" */
+
+    /* Start "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+
+    // Emergency & Trauma Care Demo Responsive
+    .navbar-area-optional {
+        .main-navbar {
+            .navbar {
+                .navbar-nav {
+                    .nav-item {
+                        margin-left: 10.5px;
+                        margin-right: 10.5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .emergency-trauma-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 960px;
+        }
+    }
+    .emergency-trauma-care-banner-content {
+        padding: {
+            top: 70px;
+            right: 0;
+        };
+        .banner-bottom {
+            .right-content {
+                img {
+                    max-width: 235.5px;
+                }
+            }
+        }
+    }
+    .emergency-trauma-care-banner-image {
+        height: 750px;
+        margin-top: 30px;
+    }
+
+    .etc-overview-area {
+        margin: 0 0;
+
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 960px;
+        }
+    }
+
+    .etc-about-content {
+        .inner-about {
+            margin-top: 20px;
+
+            .right-box {
+                padding: 18px 25px;
+            }
+        }
+    }
+    .etc-about-image {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .etc-services-area {
+        .container-fluid {
+            padding: {
+                left: 0;
+                right: 0;
+            };
+        }
+    }
+    .etc-services-card {
+        padding: 20px;
+
+        .icon {
+            margin-bottom: 12px;
+        }
+        h3 {
+            margin-bottom: 10px;
+        }
+        .list {
+            margin-top: 17px;
+        }
+    }
+
+    .etc-emergency-tips-inner {
+        margin-top: 25px;
+    }
+
+    .etc-appointment-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 960px;
+        }
+    }
+    .etc-appointment-form {
+        padding: 40px;
+        margin: 0;
+    }
+    .etc-appointment-location-btn {
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+    .etc-appointment-map {
+        margin-left: 0;
+        height: 450px;
+        margin-top: 30px;
+
+        .wrap {
+            padding: 20px;
+            right: 20px;
+            top: 20px;
+
+            h5 {
+                font-size: 18.5px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .etc-testimonials-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 960px;
+        }
+    }
+
+    .etc-hospital-card {
+        padding: 15px;
+
+        h5 {
+            font-size: 14px;
+        }
+    }
+
+    .etc-working-hours-app-info {
+        margin-top: 25px;
+    }
+
+    // Orthopedic Care Demo Responsive
+    .navbar-area-optional {
+        &.optional-wrap {
+            .main-navbar {
+                .navbar {
+                    .navbar-middle-logo {
+                        margin: 0 30px 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .orthopedic-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 960px;
+        }
+    }
+    .orthopedic-care-banner-inner {
+        position: relative;
+        z-index: 1;
+        padding: {
+            top: 150px;
+            left: 30px;
+            right: 30px;
+            bottom: 70px;
+        };
+    }
+    .orthopedic-care-banner-info {
+        text-align: start;
+        margin-top: 35px;
+    }
+
+    .oc-features-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 960px;
+        }
+    }
+
+    .oc-about-item {
+        .item {
+            margin-bottom: 25px;
+        }
+    }
+    .oc-about-content {
+        padding-left: 0;
+    }
+
+    .oc-services-area {
+        .container-fluid {
+            padding: {
+                left: 0;
+                right: 0;
+            };
+        }
+    }
+
+    .oc-working-hours-app-info {
+        margin-top: 25px;
+    }
+
+    .oc-appointment-area {
+        margin: 0 0;
+    }
+    
+    .oc-faq-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 960px;
+        }
+    }
+    .oc-faq-accordion {
+        padding-left: 20px;
+    }
+
+    .oc-blog-area {
+        margin: 0 0;
+    }
+
+    .footer-optional-area {
+        &.gap-wrap {
+            margin: 0 0;
+        }
+    }
+
+    /* End "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+
+    // New Inner Pages Responsive
+    .checkout-sidebar {
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    // New Three Demo Responsive
+
+    // Dental Tourism Responsive CSS
+    .top-dental-tourism-information {
+        &.with-left {
+            margin-left: 115px;
+        }
+    }
+    .dental-tourism-navbar {
+        .main-navbar {
+            .navbar {
+                ul {
+                    margin-left: 35px;
+                }
+                .navbar-brand {
+                    &::before {
+                        width: 185px;
+                        height: 160px;
+                        top: -102px;
+                    }
+                }
+            }
+        }
+    }
+    .dental-tourism-banner-content {
+        h1 {
+            font-size: 65px;
+        }
+    }
+    .single-dental-tourism-features {
+        .content {
+            padding-left: 90px;
+
+            .icon-image {
+                height: 70px;
+                width: 70px;
+                line-height: 70px;
+
+                img {
+                    max-width: 30px;
+                }
+            }
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+    .dental-tourism-services-area {
+        .container-fluid {
+            left: calc((100% - 1135px)/2);
+        }
+    }
+    .dental-tourism-footer-widget {
+        h3 {
+            font-size: 20px;
+        }
+        .share-link {
+            li {
+                display: inline-block;
+                margin-right: 5px;
+
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    // Skin Care Responsive CSS
+    .grin-care-navbar {
+        .main-navbar {
+            .navbar {
+                padding: 10px;
+                .navbar-nav {
+                    .nav-item {
+                        margin-left: 12px;
+                        margin-right: 12px;
+                    }
+                }
+                .others-options {
+                    .option-item {
+                        &::before {
+                            right: -14px;
+                        }
+                        .navbar-btn {
+                            .default-btn {
+                                padding: 20px 15px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .skin-care-banner-area {
+        padding-top: 120px;
+    }
+    .skin-care-banner-content {
+        h1 {
+            font-size: 45px;
+        }
+    }
+    .skin-care-features-card {
+        padding: 20px;
+
+        .features-title {
+            padding-left: 75px;
+            padding-top: 24px;
+            margin-bottom: 35px;
+
+            .icon-image {
+                height: 60px;
+                width: 60px;
+                line-height: 60px;
+
+                img {
+                    max-width: 30px;
+                }
+            }
+        }
+    }
+    .skin-care-about-image {
+        .skin-care-fun-fact {
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            padding: 25px;
+        }
+    }
+    .skin-care-appointment-form {
+        padding: 50px 10px;
+
+        h4 {
+            font-size: 35px;
+        }
+    }
+
+    // Skin Care Responsive CSS
+    .eye-care-banner-content {
+        padding: 30px;
+
+        h1 {
+            font-size: 50px;
+        }
+        .banner-btn-with-info {
+            li {
+                &.banner-btn {
+                    .default-btn {
+                        padding: 15px;
+                    }
+                }
+                img {
+                    max-width: 35px;
+                }
+            }
+        }
+    }
+    .eye-care-features-card {
+        &::before {
+            right: -15px;
+        }
+    }
+    .eye-care-services-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -30px;
+    
+                    &.owl-next {
+                        left: auto;
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+    .eye-care-testimonials-content-box {
+        .content {
+            margin-left: 0;
+
+            h3 {
+                font-size: 30px;
+            }
+        }
+    }
+    .eye-care-review-card {
+        padding: 28px 20px;
+
+        .icon-quote {
+            right: 25px;
+            top: 25px;
+        }
+    }
+    .eye-care-review-slides {
+        margin-left: -70px;
+        
+        &.owl-theme {
+            .owl-nav.disabled + .owl-dots {
+                right: 20px;
+                bottom: 25px;
+            }
+        }
+    }
+    .eye-care-treatment-content {
+        .treatment-inner-content {
+            padding: 15px 15px 15px 55px;
+
+            .number {
+                height: 30px;
+                width: 30px;
+                line-height: 30px;
+                font-size: 20px;
+                left: 15px;
+            }
+        }
+    }
+    .eye-care-footer-widget {
+        h3 {
+            font-size: 20px;
+        }
+        .share-link {
+            li {
+                display: inline-block;
+                margin-right: 5px;
+
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    /* Start "Covid 19 Vaccination Center Demo Responsive" */
+
+    .covid-tracker-card {
+        padding: 25px;
+
+        .tracker-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .covid-blog-card {
+        .blog-content {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .covid-tracker-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+    .covid-blog-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+    .covid-doctors-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /* End "Covid 19 Vaccination Center Demo Responsive" */
+
+    /* Start "Hospital Website Demo Responsive" */
+
+    .hospital-banner-content {
+        span {
+            font-size: 14px;
+        }
+        h1 {
+            font-size: 45px;
+        }
+    }
+    .hospital-banner-image {
+        .circle {
+            height: 400px;
+            width: 400px;
+        }
+    }
+
+    .hospital-specialist-card {
+        padding: 15px;
+
+        .specialist-content {
+            padding: 15px 0 15px 60px;
+
+            img {
+                max-width: 45px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .hospital-about-content {
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .hospital-services-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -30px;
+
+                    &.owl-next {
+                        left: auto;
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hospital-skills-content {
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .hospital-team-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -30px;
+
+                    &.owl-next {
+                        left: auto;
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hospital-app-image {
+        .circle {
+            height: 425px;
+            width: 425px;
+        }
+    }
+    .hospital-app-content {
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .hospital-information-card {
+        padding: 25px 20px;
+
+        .content {
+            padding-left: 80px;
+
+            .icon {
+                i {
+                    height: 65px;
+                    width: 65px;
+                    line-height: 65px;
+                    font-size: 35px;
+                }
+            }
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .hospital-footer-widget {
+        &.ps-5 {
+            padding-left: 0 !important;
+        }
+    }
+
+    .hospital-blog-card {
+        .blog-image {
+            .date {
+                display: none;
+            }
+        }
+        .blog-content {
+            h3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .hospital-services-card {
+        padding: 20px;
+
+        .title {
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .hospital-testimonials-wrap-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -30px;
+
+                    &.owl-next {
+                        left: auto;
+                        right: -30px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* End "Hospital Website Demo Responsive" */
+
+    /* Start "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+
+    // Emergency & Trauma Care Demo Responsive
+    .emergency-trauma-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 1140px;
+        }
+    }
+    .emergency-trauma-care-banner-content {
+        padding-right: 0;
+
+        .banner-boxes-item {
+            .item {
+                padding: 15px;
+            }
+        }
+        .banner-bottom {
+            .right-content {
+                img {
+                    max-width: 145.5px;
+                }
+                .icon {
+                    a {
+                        i {
+                            height: 35px;
+                            width: 35px;
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .etc-overview-area {
+        margin: 0 0;
+
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 1140px;
+        }
+    }
+
+    .etc-about-content {
+        .inner-about {
+            .right-box {
+                padding: 18px;
+            }
+        }
+    }
+
+    .etc-services-area {
+        .container-fluid {
+            padding: {
+                left: 0;
+                right: 0;
+            };
+        }
+    }
+    .etc-services-card {
+        padding: 20px;
+
+        .icon {
+            margin-bottom: 12px;
+        }
+        h3 {
+            margin-bottom: 10px;
+        }
+        .list {
+            margin-top: 17px;
+        }
+    }
+    
+    .etc-emergency-tips-content {
+        padding: 35px 40px;
+    }
+
+    .etc-appointment-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 1140px;
+        }
+    }
+    .etc-appointment-form {
+        padding: 40px;
+        margin: 0;
+    }
+    .etc-appointment-location-btn {
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+    .etc-appointment-map {
+        margin-left: 0;
+        height: 550px;
+        margin-top: 30px;
+
+        .wrap {
+            padding: 20px;
+            right: 20px;
+            top: 20px;
+
+            h5 {
+                font-size: 18.5px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .etc-testimonials-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 1140px;
+        }
+    }
+
+    .etc-hospital-card {
+        padding: 15px;
+    }
+
+    .etc-working-hours-app-info {
+        padding: 40px;
+    }
+
+    // Orthopedic Care Demo Responsive
+    .navbar-area-optional {
+        &.optional-wrap {
+            .main-navbar {
+                .navbar {
+                    .navbar-middle-logo {
+                        margin: 0 30px 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .orthopedic-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 1140px;
+        }
+    }
+    .orthopedic-care-banner-inner {
+        position: relative;
+        z-index: 1;
+        padding: {
+            top: 150px;
+            left: 30px;
+            right: 30px;
+            bottom: 70px;
+        };
+    }
+    .orthopedic-care-banner-info {
+        h5 {
+            font-size: 18.5px;
+        }
+    }
+
+    .oc-features-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 1140px;
+        }
+    }
+
+    .oc-about-item {
+        .item {
+            padding: 20px;
+
+            h5 {
+                font-size: 17px;
+            }
+        }
+    }
+    .oc-about-content {
+        padding-left: 20px;
+    }
+
+    .oc-services-area {
+        .container-fluid {
+            padding: {
+                left: 0;
+                right: 0;
+            };
+        }
+    }
+
+    .oc-working-hours-info {
+        padding: 32px;
+    }
+    .oc-working-hours-app-info {
+        padding: 35px;
+
+        .app-list {
+            margin-top: 30px;
+        }
+    }
+
+    .oc-appointment-area {
+        margin: 0 0;
+    }
+    
+    .oc-faq-area {
+        .container-fluid {
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            max-width: 1140px;
+        }
+    }
+    .oc-faq-accordion {
+        padding-left: 20px;
+    }
+
+    .oc-blog-area {
+        margin: 0 0;
+    }
+
+    .footer-optional-area {
+        &.gap-wrap {
+            margin: 0 0;
+        }
+    }
+
+    /* End "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+
+    .covid-tracker-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -35px;
+
+                    &.owl-next {
+                        right: -35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .covid-blog-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -35px;
+
+                    &.owl-next {
+                        right: -35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hospital-services-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -35px;
+
+                    &.owl-next {
+                        right: -35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hospital-team-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    left: -35px;
+
+                    &.owl-next {
+                        right: -35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .emergency-trauma-care-banner-content {
+        padding-right: 30px;
+
+        .banner-bottom {
+            .right-content {
+                img {
+                    max-width: 175.5px;
+                }
+            }
+        }
+    }
+
+    .etc-appointment-location-btn {
+        left: 20px;
+    }
+
+    .orthopedic-care-banner-inner {
+        padding: {
+            top: 465px;
+            left: 70px;
+        };
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+
+    // New Three Demo Responsive
+
+    // Dental Tourism Top Area CSS
+    .dental-tourism-top-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+    .top-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+
+    // Dental Tourism Navbar Area CSS
+    .dental-tourism-navbar {
+        .main-navbar {
+            .container-fluid {
+                padding: {
+                    left: 100px;
+                    right: 100px;
+                };
+            }
+        }
+    }
+    .grin-care-navbar {
+        .main-navbar {
+            .container-fluid {
+                padding: {
+                    left: 100px;
+                    right: 100px;
+                };
+            }
+        }
+    }
+
+    // Dental Tourism Banner Area CSS
+    .dental-tourism-banner-area {
+        padding: {
+            top: 150px;
+            bottom: 150px;
+        };
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+
+    // Skin Care Banner Area CSS
+    .skin-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 0;
+            };
+        }
+    }
+    .skin-care-banner-content {
+        padding-right: 0;
+        max-width: 700px;
+    }
+
+    // Eye Care Banner Area CSS
+    .eye-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 0;
+            };
+        }
+    }
+    .eye-care-banner-content {
+        h1 {
+            font-size: 80px;
+        }
+    }
+
+
+    /* Start "Covid 19 Vaccination Center Demo Responsive" */
+
+    .covid-navbar-area {
+        .main-navbar {
+            .container-fluid {
+                padding: {
+                    left: 100px;
+                    right: 100px;
+                };
+            }
+        }
+    }
+
+    .covid-banner-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+    .covid-banner-content {
+        h1 {
+            font-size: 75px;
+        }
+    }
+
+    /* End "Covid 19 Vaccination Center Demo Responsive" */
+
+
+    /* Start "Hospital Website Demo Responsive" */
+
+    .hospital-navbar-area {
+        .main-navbar {
+            .container-fluid {
+                padding: {
+                    left: 100px;
+                    right: 100px;
+                };
+            }
+        }
+    }
+
+    .hospital-banner-area {
+        .container-fluid {
+            padding: {
+                left: 100px;
+                right: 100px;
+            };
+        }
+    }
+    .hospital-banner-content {
+        h1 {
+            font-size: 90px;
+        }
+    }
+    .hospital-banner-image {
+        position: relative;
+        z-index: 1;
+    
+        .circle {
+            position: absolute;
+            content: "";
+            height: 700px;
+            width: 700px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180.73deg, rgba(255, 255, 255, 0.6) -0.9%, rgba(255, 255, 255, 0) 101.47%, rgba(255, 255, 255, 0.287425) 101.48%, #FFFFFF 101.5%);
+            z-index: -1;
+            margin: auto;
+            border-radius: 50%;
+        }
+    }
+
+    /* End "Hospital Website Demo Responsive" */
+
+
+    /* Start "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+
+    // Top Area CSS
+    .top-area-optional {
+        .container-fluid {
+            padding: {
+                left: 150px;
+                right: 150px;
+            };
+        }
+        &.optional-wrap {
+            .container-fluid {
+                padding: {
+                    left: 50px;
+                    right: 50px;
+                };
+            }
+        }
+    }
+
+    // Navbar Area
+    .navbar-area-optional {
+        .main-navbar {
+            .container-fluid {
+                padding: {
+                    left: 150px;
+                    right: 150px;
+                };
+            }
+        }
+        &.optional-wrap {
+            .main-navbar {
+                .container-fluid {
+                    padding: {
+                        left: 50px;
+                        right: 50px;
+                    };
+                }
+                .navbar {
+                    .navbar-middle-logo {
+                        margin: 0 310px 0 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    // Emergency & Trauma Care Banner Area CSS
+    .emergency-trauma-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: 150px;
+                right: 150px;
+            };
+        }
+    }
+    .emergency-trauma-care-banner-content {
+        .banner-bottom {
+            .right-content {
+                img {
+                    max-width: 207px;
+                }
+            }
+        }
+    }
+
+    // ETC Overview Area CSS
+    .etc-overview-area {
+        margin: 0 150px;
+    }
+
+    // ETC Services Area CSS
+    .etc-services-area {
+        .container-fluid {
+            padding: {
+                left: 50px;
+                right: 50px;
+            };
+        }
+    }
+
+    // Orthopedic Care Banner Area CSS
+    .orthopedic-care-banner-area {
+        .container-fluid {
+            padding: {
+                left: 50px;
+                right: 50px;
+            };
+        }
+    } 
+    
+    // OC Features Area CSS
+    .oc-features-area {
+        .container-fluid {
+            padding: {
+                left: 50px;
+                right: 50px;
+            };
+        }
+    }
+    .oc-features-card {
+        .content {
+            h3 {
+                font-size: 23.5px;
+            }
+        }
+    }
+
+    // OC Services Area CSS
+    .oc-services-area {
+        .container-fluid {
+            padding: {
+                left: 50px;
+                right: 50px;
+            };
+        }
+    }
+
+    // OC Appointment Area CSS
+    .oc-appointment-area {
+        margin: 0 50px;
+    }
+
+    // OC FAQ Area CSS
+    .oc-faq-area { 
+        .container-fluid {
+            padding: {
+                left: 50px;
+                right: calc((100% - 1300px) / 2);
+            };
+        }
+    }
+    
+    // OC Blog Area CSS
+    .oc-blog-area {
+        margin: 0 50px;
+    }
+
+    // Footer Optional Area CSS
+    .footer-optional-area {
+        &.gap-wrap {
+            margin: 0 50px;
+        }
+    }
+
+    /* End "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
+}
