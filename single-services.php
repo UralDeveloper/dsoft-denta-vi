@@ -11,7 +11,6 @@
 get_header();
 ?>
 
-<!-- Start Page Banner -->
 <div class="page-banner-area">
 	<div class="container">
 		<div class="page-banner-content">
